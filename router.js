@@ -16,6 +16,7 @@ router
     res.json({
       name: req.query.name,
       number: req.query.number,
+      time: new Date(),
     });
   });
 
